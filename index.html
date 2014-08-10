@@ -18,6 +18,13 @@
     <script type="text/javascript" src="quotes.js"></script>
 
     <script>
+      window.onload = function() {
+        var colors = ["#97E6B1", "#FDF1F9", "#97C5E6", "#FFEBC4"];
+        var randColor = colors[Math.floor(Math.random() * colors.length)];
+
+        document.body.style.backgroundColor = randColor;
+      };
+
       document.addEventListener('DOMContentLoaded', addQuote)
 
       function addQuote() {
