@@ -11,5 +11,13 @@ var data =
   {
     "source": "Jessica Lord",
     "quote": "It is Saturday!"
+  },
+  {
+    "source": "Ernie",
+    "quote": "I'd like to visit the moon."
+  },
+  {
+    "source": "Microsoft",
+    "quote": "Where do you want to go today?"
   }
-]
+];

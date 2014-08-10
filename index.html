@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700'
+      rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="favicon.png" type="image/x-icon">
-    <title>:)</title>
+    <title>new tab</title>
   </head>
   <body>
     <div class="container">
@@ -18,6 +19,13 @@
     <script type="text/javascript" src="quotes.js"></script>
 
     <script>
+      window.onload = function() {
+        var colors = ["#97E6B1", "#FDF1F9", "#97C5E6", "#FFEBC4"];
+        var randColor = colors[Math.floor(Math.random() * colors.length)];
+
+        document.body.style.backgroundColor = randColor;
+      }
+
       document.addEventListener('DOMContentLoaded', addQuote)
 
       function addQuote() {
