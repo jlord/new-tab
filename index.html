@@ -8,7 +8,12 @@
     <title>:)</title>
   </head>
   <body>
-    <div id="quote"><p></p></div>
+    <div class="container">
+      <div id="quote"></div>
+    </div>
+    <footer>
+      <p>&#8984; R or &#8984; T</p>
+    </footer>
 
     <script type="text/javascript" src="quotes.js"></script>
 
@@ -17,7 +22,8 @@
 
       function addQuote() {
         var quote = data[Math.floor(Math.random() * data.length)]
-        document.getElementById("quote").innerHTML = quote.quote
+        var template = "<p>" + quote.quote + " <em>— " + quote.source + "</em></p>"
+        document.getElementById("quote").innerHTML = template
       }
     </script>
   </body>
