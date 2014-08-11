@@ -1,5 +1,7 @@
 # WIP
 
+![img](new-tab.png)
+
 ### new-tab
 
 A simple website that displays a random quote to be used as a new tab page in browsers.
