@@ -1,8 +1,9 @@
 body {
-  background: #FDF1F9;
-  color: #333;
+  background: #FFFFFC;
+  color: #032DFF;
   margin: 0;
   padding: 0;
+  /*border-top: 8px solid #032DFF;*/
   font-family: 'Source Sans Pro', Franklin Gothic Book, Helvetica Neue, Arial, sans-serif;
 }
 
@@ -10,25 +11,27 @@ body {
 pink FDF1F9
 cobalt 032DFF
 neon B7FF00
+butter FFFAE7
 */
-
-em {
-  white-space: nowrap;
-  font-weight: 300;
-  color: #777;
-  font-size: 30px;
-}
 
 .container {
   width: 800px;
   margin: 0 auto;
   padding-top: 100px;
+  text-align:center;
 }
 
 #quote {
   font-size: 50px;
   font-weight: 900;
   text-align: center;
+}
+
+.source {
+  white-space: nowrap;
+  font-weight: 300;
+  color: #777;
+  font-size: 30px;
 }
 
 footer {

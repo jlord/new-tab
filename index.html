@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <title>:)</title>
   </head>
   <body>
     <div class="container">
+      <div id="date"></div>
       <div id="quote"></div>
     </div>
     <footer>
@@ -21,8 +22,9 @@
       document.addEventListener('DOMContentLoaded', addQuote)
 
       function addQuote() {
+        // document.getElementById("date").innerHTML = new Date().toLocaleDateString() + " " + new Date().toTimeString()
         var quote = data[Math.floor(Math.random() * data.length)]
-        var template = "<p>" + quote.quote + " <em>— " + quote.source + "</em></p>"
+        var template = "<p>" + quote.quote + "<br><span class='source'>— " + quote.source + "</span></p>"
         document.getElementById("quote").innerHTML = template
       }
     </script>
