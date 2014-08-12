@@ -11,7 +11,7 @@ A simple website that displays a random quote to be used as a new tab page in br
 1. Clone this repo.
 2. Set the location of the `index.html` as your browser's homepage.
  - `cd new-tab` and then `open index.html` and when it opens in your browser, that's the location.
-3. Edit `quotes.js` with quotes, it should look like:
+3. Create a file `quotes.js` with quotes, it should look like:
 
 ```javascript
 var data =
