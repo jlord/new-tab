@@ -1,10 +1,12 @@
 body {
   background: #FFFFFC;
-  color: #032DFF;
+  color: #fff;
   margin: 0;
   padding: 0;
   /*border-top: 8px solid #032DFF;*/
-  font-family: 'Source Sans Pro', Franklin Gothic Book, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Playfair Display', Franklin Gothic Book, Helvetica Neue, Arial, sans-serif;
+  background: url(imgs/nicehouse.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
 }
 
 /*
@@ -23,14 +25,17 @@ butter FFFAE7
 
 #quote {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
+  letter-spacing: .02em;
   text-align: center;
+  text-shadow: rgb
 }
 
 .source {
   white-space: nowrap;
-  font-weight: 300;
-  color: #777;
+  font-weight: 100;
+  color: #fff;
+  font-style: italic;
   font-size: 30px;
 }
 
